@@ -12,7 +12,7 @@ public class MsgController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Full Stack Java with Spring Boot & VueJS!";
+        return "Full Stack Java with Spring Boot & VueJS! I'm a message from spring boot";
     }
 
 }
